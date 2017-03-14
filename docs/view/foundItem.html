@@ -1,0 +1,4 @@
+<ul class="found-item list-group">
+    <li class="list-group-item" ng-repeat="item in found.foundItems">{{item.name + "," + item.short_name + "," + item.description}}<button class="btn btn-warning" ng-click="found.onRemove({index:$index})">Don't want this one!</button></li>
+    
+</ul>
